@@ -1,8 +1,15 @@
+@media (max-width: 1000px) {
+  .nav-tab {
+    display: none !important;
+  }
+}
+
 .nav-link {
   background-color: #0dcaf0;
   color: #FFFFFF;
   border-radius: 5px;
   transition: 0.3s;
+  margin-right: 2px;
 }
 
 .nav-link:hover {
@@ -10,37 +17,56 @@
   color: #0dcaf0 !important;
   border-radius: 5px;
   transition: 0.3s;
+  margin-right: 2px;
 }
 
-.nav-link:active {
+.nav-link.active {
   background-color: #ffffff;
   color: #0dcaf0 !important;
   border-radius: 5px;
   transition: 0.3s;
+  margin-right: 2px;
 }
 
 .bg-home {
   background-color: #90D4E7;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  height: 100vh;
 }
 
 .bg-profile {
   background-color: #98AFF9;
+  height: 100vh;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
 }
 
 .bg-education {
   background-color: #FBEB96;
+  height: 100vh;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
 }
 
 .bg-activities {
   background-color: #FFF9EE;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
 }
 
 .bg-skills {
   background-color: #FDBEC5;
+  height: 100vh;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
 }
 
 .bg-contacts {
   background-color: #FDA7BE;
+  height: 90vh;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
 }
 
 .text-color-default {
@@ -53,4 +79,8 @@
 
 .hr-line {
   width: 300px;
+}
+
+.pointer {
+  cursor: pointer;
 }

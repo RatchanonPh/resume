@@ -15,9 +15,12 @@
   <!-- Navbar -->
   <div class="container-fluid">
     <div class="fixed-top">
-      <nav class="navbar navbar-dark bg-info">
-        <span class="navbar-brand px-2 fs-2">RATCHANON PHUETTHICHOT</span>
-        <div class="d-flex">
+      <nav class="row navbar navbar-dark bg-info">
+        <div class="col d-flex align-items-center mx-2 navbar-brand">
+          <img class="pointer" src="media/icons/menu-hamburger.png" width="26" height="26" alt="menu hamburger">
+          <span class="px-2 fs-2">RATCHANON PHUETTHICHOT</span>
+        </div>
+        <div class="col d-flex nav-tab">
           <a class="nav-link text-white active" href="#home">Home</a>
           <a class="nav-link text-white" href="#profile">Profile</a>
           <a class="nav-link text-white" href="#education">Education</a>
@@ -30,7 +33,7 @@
   </div>
 
   <!-- Home Section -->
-  <div id="home" class="container-fluid bg-home py-5 text-center">
+  <div id="home" class="container-fluid bg-home text-center">
     <div class="col-12">
       <img class="image-profile mt-5" src="media/images/profile.png" alt="Profile Image">
       <p class="mt-3 fs-1 text-color-default">Ratchanon Phuetthichot</p>
@@ -40,7 +43,7 @@
   </div>
 
   <!-- Profile Section -->
-  <div id="profile" class="container-fluid bg-profile py-5">
+  <div id="profile" class="container-fluid bg-profile">
     <div class="row px-3">
       <div class="col px-4">
         <p class="fs-1 px-3 text-color-default">PROFILES</p>
@@ -67,7 +70,7 @@
   </div>
 
   <!-- Education Section -->
-  <div id="education" class="container-fluid bg-education py-5">
+  <div id="education" class="container-fluid bg-education">
     <div class="row px-3">
       <div class="col px-4">
         <p class="fs-1 px-3 text-color-default">EDUCATION</p>
@@ -91,7 +94,7 @@
   </div>
 
   <!-- Activities Section -->
-  <div id="activities" class="container-fluid bg-activities py-5">
+  <div id="activities" class="container-fluid bg-activities">
     <div class="row px-3">
       <div class="col px-4">
         <p class="fs-1 px-3 text-color-default">ACTIVITIES</p>
@@ -137,7 +140,7 @@
   </div>
 
   <!-- Skills Section -->
-  <div id="skills" class="container-fluid bg-skills py-5">
+  <div id="skills" class="container-fluid bg-skills">
     <div class="row px-3">
       <div class="col px-4">
         <p class="fs-1 px-3 text-color-default">SKILLS</p>
@@ -157,7 +160,7 @@
   </div>
 
   <!-- Contacts Section -->
-  <div id="contacts" class="container-fluid bg-contacts py-5">
+  <div id="contacts" class="container-fluid bg-contacts">
     <div class="row px-3">
       <div class="col px-4">
         <p class="fs-1 px-3 text-color-default">CONTACTS</p>
@@ -181,11 +184,11 @@
   </div>
 
   <!-- Footer -->
-  <footer class="bg-info text-center">
-    <p class="text-color-default">Resume | Ratchanon Phuetthichot</p>
-  </footer>
+  <div class="footer fixed-bottom bg-info text-center py-1">
+    <span class="text-white">Resume | Ratchanon Phuetthichot</span>
+  </div>
 
-  <script src="navbar.js"></script>
+  <script src="navbar.js" ></script>
   <script src="js/bootstrap.min.js"></script>
 </body>
 
