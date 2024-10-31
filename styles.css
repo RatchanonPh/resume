@@ -1,0 +1,35 @@
+.bg-home {
+  background-color: #90D4E7;
+}
+
+.bg-profile {
+  background-color: #98AFF9;
+}
+
+.bg-education {
+  background-color: #FBEB96;
+}
+
+.bg-activities {
+  background-color: #FFF9EE;
+}
+
+.bg-skills {
+  background-color: #FDBEC5;
+}
+
+.bg-contacts {
+  background-color: #FDA7BE;
+}
+
+.text-color-default {
+  color: #666a75;
+}
+
+.image-profile {
+  width: 300px;
+}
+
+.hr-line {
+  width: 300px;
+}
