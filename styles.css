@@ -6,7 +6,7 @@
 
 .nav-link {
   background-color: #0dcaf0;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 5px;
   transition: 0.3s;
   margin-right: 2px;
@@ -29,44 +29,46 @@
 }
 
 .bg-home {
-  background-color: #90D4E7;
+  background-color: #90d4e7;
   padding-top: 3rem;
   padding-bottom: 3rem;
   height: 100vh;
 }
 
 .bg-profile {
-  background-color: #98AFF9;
+  background-color: #98aff9;
   height: 100vh;
   padding-top: 4.5rem;
   padding-bottom: 4.5rem;
 }
 
 .bg-education {
-  background-color: #FBEB96;
+  background-color: #fbeb96;
   height: 100vh;
   padding-top: 4.5rem;
   padding-bottom: 4.5rem;
 }
 
 .bg-activities {
-  background-color: #FFF9EE;
+  background-color: #fff9ee;
   padding-top: 4.5rem;
   padding-bottom: 4.5rem;
 }
 
 .bg-skills {
-  background-color: #FDBEC5;
+  background-color: #fdbec5;
   height: 100vh;
   padding-top: 4.5rem;
   padding-bottom: 4.5rem;
 }
 
 .bg-contacts {
-  background-color: #FDA7BE;
-  height: 90vh;
+  min-height: 90vh;
   padding-top: 4.5rem;
   padding-bottom: 4.5rem;
+  background: url(https://img.freepik.com/free-vector/gradient-blue-dynamic-lines-background_23-2148995926.jpg)
+    no-repeat;
+  background-size: cover;
 }
 
 .text-color-default {
@@ -83,4 +85,69 @@
 
 .pointer {
   cursor: pointer;
+}
+
+.lh-1 {
+  line-height: 1;
+}
+
+.lh-2 {
+  line-height: 2;
+}
+
+.lh-3 {
+  line-height: 3;
+}
+
+.lh-4 {
+  line-height: 4;
+}
+
+.lh-5 {
+  line-height: 5;
+}
+
+.lh-6 {
+  line-height: 6;
+}
+
+.card-title {
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.red {
+  color: #f6474e;
+}
+
+.green {
+  color: #99c935;
+}
+
+.blue {
+  color: #2f5ba2;
+}
+
+.purple {
+  color: #e942ce;
+}
+
+.orange {
+  color: #ed7e39;
+}
+
+.yellow {
+  color: #f4bc5b;
 }

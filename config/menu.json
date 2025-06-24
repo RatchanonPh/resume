@@ -1,0 +1,26 @@
+[
+  {
+    "name": "home",
+    "path": "/home"
+  },
+  {
+    "name": "profile",
+    "path": "/profile"
+  },
+  {
+    "name": "education",
+    "path": "/education"
+  },
+  {
+    "name": "activities",
+    "path": "/activities"
+  },
+  {
+    "name": "skills",
+    "path": "/skills"
+  },
+  {
+    "name": "contacts",
+    "path": "/contacts"
+  }
+]
